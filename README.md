@@ -16,6 +16,8 @@ The lab is built natively on **Garuda Linux (Arch-based)** using the **QEMU/KVM*
 
 ## 🔍 Phase 1: Asset Discovery & Vulnerability Identification
 
+Using **ifconfig** from the Metasploitable 2 terminal, I found the IP Address (inet addr): `192.168.100.217`.
+
 ![ifconfig on Metasploitable 2](images/metasploitable_ifconfig_gimp.png)
 
 Using **Zenmap/Nmap** from the Kali attacker instance, I conducted an initial sweep of the target environment (`192.168.100.217`). 
