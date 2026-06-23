@@ -14,8 +14,12 @@ The lab is built natively on **Garuda Linux (Arch-based)** using the **QEMU/KVM*
 
 ---
 
+![ifconfig on Metasploitable 2](images/metasploitable_ifconfig_gimp.png)
+
 ## 🔍 Phase 1: Asset Discovery & Vulnerability Identification
 Using **Zenmap/Nmap** from the Kali attacker instance, I conducted an initial sweep of the target environment (`192.168.100.217`). 
+
+![alt text](image URL)
 
 ### Key Findings:
 The target machine revealed a massive, unhardened attack surface with numerous critical ports exposed:
@@ -36,4 +40,4 @@ From a Technical Governance, Risk, and Compliance (GRC) perspective, this enviro
 2. **Protocol Migration:** Decommission Telnet (Port 23) entirely and enforce encrypted SSH (Port 22) transport for all remote administration.
 3. **Hardening Baselines:** Implement mandatory strong password policies to eliminate default factory credentials before deployment.
 
----# cyberlab_20260622__kali-zenmap_metasploitable-2-ifconfig
+# cyberlab_20260622__kali-zenmap_metasploitable-2-ifconfig
