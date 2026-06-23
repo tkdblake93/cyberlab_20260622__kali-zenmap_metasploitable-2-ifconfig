@@ -14,12 +14,13 @@ The lab is built natively on **Garuda Linux (Arch-based)** using the **QEMU/KVM*
 
 ---
 
+## 🔍 Phase 1: Asset Discovery & Vulnerability Identification
+
 ![ifconfig on Metasploitable 2](images/metasploitable_ifconfig_gimp.png)
 
-## 🔍 Phase 1: Asset Discovery & Vulnerability Identification
 Using **Zenmap/Nmap** from the Kali attacker instance, I conducted an initial sweep of the target environment (`192.168.100.217`). 
 
-![alt text](image URL)
+![Output of Zenmap scan on Kali](images/kali_zenmap_gimp.png)
 
 ### Key Findings:
 The target machine revealed a massive, unhardened attack surface with numerous critical ports exposed:
